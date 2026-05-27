@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path \"D:\\\\my\\\\Лаби\\\\6 СЕМЕСТР\\\\Курсова ПІС\\\\Car_Rental\" -Force | ForEach-Object { $_.Name })",
+      "Read(//c/Users/Orest/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/0e0e52e9-43a0-469c-8189-2e46f75905f3/e426dc94-6d97-4bdb-809e-1da0324e9e3a/skills/docx/**)",
+      "Bash(python scripts/office/unpack.py \"D:\\\\my\\\\Лаби\\\\6 СЕМЕСТР\\\\Курсова ПІС\\\\Пояснювальна_записка.docx\" \"D:\\\\my\\\\Лаби\\\\6 СЕМЕСТР\\\\Курсова ПІС\\\\unpacked_example\")",
+      "Bash(pandoc \"D:\\\\my\\\\Лаби\\\\6 СЕМЕСТР\\\\Курсова ПІС\\\\Пояснювальна_записка.docx\" -o \"D:\\\\my\\\\Лаби\\\\6 СЕМЕСТР\\\\Курсова ПІС\\\\example_content.md\" --track-changes=all)",
+      "Bash(python -c ' *)",
+      "Bash(node -e \"require\\('docx'\\); console.log\\('OK'\\)\")",
+      "Bash(npm install *)",
+      "Bash(node gen_part1.js)",
+      "Bash(python scripts/office/validate.py \"D:\\\\my\\\\Лаби\\\\6 СЕМЕСТР\\\\Курсова ПІС\\\\Пояснювальна_записка_Part1.docx\")",
+      "Bash(python scripts/office/unpack.py \"D:\\\\my\\\\Лаби\\\\6 СЕМЕСТР\\\\Курсова ПІС\\\\Пояснювальна_записка_Part1.docx\" \"D:\\\\my\\\\Лаби\\\\6 СЕМЕСТР\\\\Курсова ПІС\\\\unpacked_part1\")",
+      "Bash(node gen_part2.js)",
+      "Bash(node gen_part3.js)",
+      "Bash(dir \"D:\\\\my\\\\Лаби\\\\6 СЕМЕСТР\\\\Курсова ПІС\\\\\" 2>&1 | grep Part)",
+      "Bash(python3 -c ' *)"
+    ]
+  }
+}
